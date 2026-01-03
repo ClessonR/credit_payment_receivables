@@ -1,0 +1,20 @@
+# Requirements for Credit Payment Receivables EDA Notebook
+# Generated based on imports and dependencies used in notebooks/eda.ipynb
+
+# Core data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Parquet file reading (required for pd.read_parquet)
+pyarrow>=10.0.0
+
+# Excel file reading (required for reading glossary.xlsx)
+openpyxl>=3.1.0
+
+# Jupyter notebook support (optional, but recommended for running the notebook)
+jupyter>=1.0.0
+ipykernel>=6.0.0
